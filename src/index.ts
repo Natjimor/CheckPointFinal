@@ -11,7 +11,7 @@ class AppContainer extends HTMLElement {
     }
 
     render() {
-        const something = this.ownerDocument.createElement('div');
+        const something = this.ownerDocument.createElement('dashboard-container');
         this.shadowRoot?.appendChild(something);
     }
 }
